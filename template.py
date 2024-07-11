@@ -8,7 +8,7 @@ project_name ="cnnClassifier"
 
 list_of_files = [
     ".github/workflows/.gitKeep",
-    f"src/{project_name}/__init__.py",py
+    f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/utils/__init__.py",
     f"src/{project_name}/config/__init__.py",
@@ -21,8 +21,9 @@ list_of_files = [
     "params.yaml",
     "requirements.txt",
     "setup.py",
-    "research/trails.ipynb"
-    "test.py"
+    "research/trails.ipynb",
+    "templates/index.html",
+    
 
 ]
 
