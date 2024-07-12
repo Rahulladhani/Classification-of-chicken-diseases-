@@ -2,8 +2,6 @@ from cnnClassifier import logger
 from cnnClassifier.pipepline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 
 STAGE_NAME = "Data Ingestion stage"
-
-
 try:
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
    data_ingestion = DataIngestionTrainingPipeline()
